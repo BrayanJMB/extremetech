@@ -7,6 +7,8 @@
     if($_SESSION['rol']=='user'){
         header("location:pqr_form.php");
     }
+
+    
     
 ?>
     <h1 class="text-center">Welcome</h1>
@@ -26,6 +28,11 @@
 </head>
 <body>
   
+<?php
+    /* FPDF Library or DomPf HTML2FPDF,to convert php or html files
+     to PDF
+        */
+        ?>
 <div class="container">
     <h2 class="text-center mb-4">PQRS</h2>
 
